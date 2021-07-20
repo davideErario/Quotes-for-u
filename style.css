@@ -1,0 +1,51 @@
+body {
+    background-color: darkslategrey;
+    font-family: Helvetica;
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+    color: darkgray;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container {
+    display: block;
+    height: 144px;
+    margin: auto;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.quote-place {
+    display: table;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.change-quote-button {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: darkgray;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.author {
+    font-style: italic;
+}
